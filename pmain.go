@@ -9,7 +9,7 @@ import (
 func homePage(w http.ResponseWriter, r *http.Request) {
 	t := time.Now()
 	fmt.Println(t.Format("20060102150405"))
-	fmt.Fprintf(w, "My Awesome khghvgkg Go App")
+	fmt.Fprintf(w, "My Awesome khghvgkg hfghfgh Go App")
 }
 
 func setupRoutes() {
